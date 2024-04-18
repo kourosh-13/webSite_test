@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("/fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Vazir.woff2") format("woff2"),
+        url("/fonts/Vazir.woff") format("woff"),
+        url("/fonts/Vazir.ttf") format("truetype"),
+        url("/fonts/bootstrap-icons.woff2") format("woff2"),
+        url("/fonts/bootstrap-icons.woff") format("woff");
+         /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+
+a:hover{
+    color: #8ac047!important;
+}
+a:focus{
+    color: #8ac047 !important; 
+}
+
+
+
+.form-control1:focus {
+    color: #2F281E;
+    background-color: #FFFEFE;
+    border-color: #0043c0;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 92, 104, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(0, 92, 104, 0.25);
+  }
+  
+.icons1{
+    color: #0d6efd;
+    background-color: #ebeafb;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+}
+.text-muted1{
+    color: #aaa;
+}
+
+.bg-dark2{
+    background-color: #ddd;
+}
+.bg-dark1{
+    background-color: #333 !important;
+}
+
+.success1{
+    background-color: #a6d453;
+    border-color: #8ac047;    
+}
+
+.gray{
+    background-color: #efefef;
+}
+
+.redlight{
+    color: #ff725e;
+}
+.bg-redlight{
+    background-color: #ff725e;
+}
+
+.btn-redlight{
+    background-color: #ff725e;
+    border-color: #ff5d48;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn-redlight:hover{
+    background-color: #ff563f;
+    border-color: #ff7663;
+    color: #ddd;
+}
+.bluelight{
+    color: #407bff;
+}
+
+.btn-bluelight{
+    background-color: #407bff;
+    border-color: #395eb4;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn-bluelight:hover{
+    background-color: #2d56b3;
+    border-color: #407bff;
+    color: #ddd;
+}
+
+.btn-bluelight:focus{
+    box-shadow: 0 0 0  #0043c0;
+}
+
+.bg-blue{
+    background-color: #0d6efd;
+    
+}
+
+.btn-pad{
+    padding-bottom: 10px;
+}
+
+/* body {
+    font-family: "Vazir" !important;
+}
+
+.icon {
+    color: #0d6efd;
+    background-color: #ebeafb;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card-primary {
+    background: #1b2a4e;
+    color: white !important;
+}
+
+.bg-main {
+    background-color: #1b2a4e;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
+}
+.footer-header {
+    border-bottom: 3px solid;
+    height: 35px;
+}
+
+.footer-link:hover {
+    color: #000;
+} */
